@@ -79,3 +79,6 @@ IncMissRate:
 	ADC_i(0x0008)		//Add “8” to the enemy’s miss rate.
 	RTL
 }
+
+/* Fix the Piggy Nose item so that it actually locates Magic Truffles by loading sprite 440 into the accumulator. (Credit to MAGNAT2645) */
+ROM[0xC490F6] = LDA_i(0x01B8)
