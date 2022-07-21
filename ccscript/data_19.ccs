@@ -330,8 +330,8 @@ l_0xc64078:
 
 l_0xc640a1:
     "@Let me just confirm your request.  You want me to take" next
-    "[19 1D 01 00]@the [1C 05 00][19 1D 02 00][1B 02 {e(l_0xc640f1)}]" linebreak
-    "  the [1C 05 00][19 1D 03 00][1B 02 {e(l_0xc640f1)}]" linebreak
+    "[19 1D 01 00]@the [1C 05 00][19 1D 02 00][1B 02 {e(l_0xc640f1)}]," linebreak
+    "  the [1C 05 00][19 1D 03 00][1B 02 {e(l_0xc640f1)}]," linebreak
     "  and the [1C 05 00]." goto(l_0xc640f1)
 
 l_0xc640f1:
