@@ -132,7 +132,7 @@ l_0xc7a04a:
     title(1, Tony)
     "@You know the dorm rules, right?" next
     "@If you get caught,{pause(15)} you'll get a paddling..." next
-    "@W.{pause(5)}.{pause(5)}.{pause(5)} what's wrong, [1C 02 03]." next
+    "@W.{pause(5)}.{pause(5)}.{pause(5)} what's wrong, [1C 02 03]?" next
     "[19 22 03 03 B6 00][1F 13 03 00]@{pause(20)}...All right." next
     "@There must be some reason that I don't understand.{pause(20)}  I won't stop you." next
     "@But it's dangerous to leave without taking anything along." next
