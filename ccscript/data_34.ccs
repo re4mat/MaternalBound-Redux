@@ -192,7 +192,7 @@ l_0xc7a542:
     "@No one else knows about this, right?" next
     "@Let's just pretend that you're [1C 02 01],{pause(15)} and I'll give this to you." next
     "@Oh!{pause(15)}  Hello, [1C 02 01]!" next
-    "@Just go along with me on this one, okay." next
+    "@Just go along with me on this one, okay?" next
     "@I made the decision that you're [1C 02 01],{pause(15)} no matter what..." next
     "[1D 03 FF][1B 02 {e(l_0xc7a6a9)}]" goto(l_0xc7a63e)
 
