@@ -1,4 +1,4 @@
-// Earthbound MSU1 patch by Conn 
+// Earthbound MSU1 patch by Conn
 // Credits for addresses by byuu, looptable by ShadowOne333
 // Apply on non-header US rom
 
@@ -11,6 +11,7 @@ import asm65816
 // db $2f ; hardcore mute
 
 // 7E0100, 7E0102, 7E0103  instead of 7FFFF0, 7FFFF2 and 7FFFF3
+// In case of volume or fade errors, replace 7E0100-7E0103 to any value between 7E0720 and 7E0800
 
 
 ROM[0xC4FBF4] = {
@@ -31,7 +32,7 @@ ROM[0xC0834E] = {
 	JSL (nmi)
 }
 
-msuTrack: {			// //ROM[0xEFFE00] = 
+msuTrack: {			// //ROM[0xEFFE00] =
 	LDX_d	(0x12)		// Native code
 	STX_a	(0xB53B)
 	PHA
@@ -236,7 +237,7 @@ endfull: {
 	JMP	(endNMI)	// JMP (endNMI) - JMP $FDDF
 }
 
-track_table:			//ROM[0xEFFF00] = 
+track_table:			//ROM[0xEFFF00] =
 	//00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
 	"[ \
 	  03 01 03 03 03 03 03 03 01 01 03 01 01 01 01 01 \
